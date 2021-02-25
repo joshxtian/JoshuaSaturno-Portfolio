@@ -1,0 +1,54 @@
+
+.about__paragraph{
+    font-weight: 600;
+}
+
+
+
+.about__socialLinks{
+    font-size: 40px;
+    transition: 0.2s;
+}
+.about__socialLinks:hover{
+    transform: scale(1.1);
+}
+
+#fb{
+    color:#3b5998;
+}
+
+#ig{
+    color:#C32AA3;
+}
+#tw{
+    color:#1dcaff;
+}
+#li{
+    color:#007bb6;
+}
+#gh{
+    color:#161B22;
+}
+
+@media only screen and (max-width:1200px){
+    
+     
+}
+
+@media only screen and (max-width:1023px){
+
+}
+@media only screen and (max-width:920px){
+   
+}
+
+@media only screen and (max-width:767px){
+    
+}
+
+@media only screen and (max-width:480px){
+    .about__photo-column{
+        display:none;
+    }
+}
+  

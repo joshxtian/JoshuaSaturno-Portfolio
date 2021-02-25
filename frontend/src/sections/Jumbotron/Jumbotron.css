@@ -1,0 +1,13 @@
+.jumbotron__lead{
+    font-weight: 500;
+}
+
+
+.jumbotron__underlined{
+    color: #6577B3;
+    text-decoration: underline;
+}
+
+.jumbotron__list-item{
+    border:none;
+}
