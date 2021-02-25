@@ -1,0 +1,19 @@
+footer{
+    height: 30vh;
+    background:#161B22;
+}
+.footer__header{
+    color:white;
+}
+.about__socialList > div > div{
+    text-align: center;
+}
+.footer__navLinks{
+    color:white;
+}
+
+.footer__copyright{
+    font-size: 20px;
+    font-weight: lighter;
+    color:white
+}

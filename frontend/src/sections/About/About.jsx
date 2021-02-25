@@ -16,21 +16,18 @@ const About = () => {
                 <p className="about__paragraph lead">I love sipping coffee and listening to Metallica while coding, by the way.</p>
                 <Container className="about__socialList py-3">
                     <Row>
-                        <Col md={{span:2,offset:1}} sm={6}>
+                        <Col xs={2}>
                         <a id="fb" href="https://www.facebook.com/JoshuaStorm99">
                             <i className="about__socialLinks fab fa-facebook-square"></i>
                         </a>
                         </Col>
-                        <Col md={{span:2}} sm={6}>
+                        <Col xs={2}>
                             <a id="ig" href="https://www.instagram.com/joshxtian/"> <i className="about__socialLinks fab fa-instagram"></i></a>
                         </Col>
-                        <Col md={{span:2}} sm={4}>
-                            <a id="tw" href="https://twitter.com/joshxtian"> <i className="about__socialLinks fab fa-twitter-square"></i></a>
-                       </Col>
-                        <Col md={{span:2}} sm={4}>
+                        <Col xs={2}>
                             <a id="li" href="https://www.linkedin.com/in/joshua-christian-saturno-66a699203/"><i className="about__socialLinks fab fa-linkedin"></i></a>
                         </Col>
-                        <Col md={{span:2}} sm={4}>
+                        <Col xs={2}>
                             <a id="gh" href="https://github.com/joshxtian"> <i className="about__socialLinks fab fa-github-square"></i></a>
                        </Col>
                     </Row>

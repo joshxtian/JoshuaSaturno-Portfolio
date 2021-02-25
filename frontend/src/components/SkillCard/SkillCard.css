@@ -5,7 +5,7 @@
     width: 240.391px;
     border-radius: 5px;
     margin: 0 auto;
-    box-shadow:20px 20px 50px rgba(0,0,0,0.5);
+    box-shadow:0px 10px 20px rgba(0,0,0,0.5);
 }
 
 .skill__card-image{
@@ -17,3 +17,38 @@
     font-size: 30px;
     text-transform: uppercase;
 }
+@media only screen and (max-width:1200px){
+    
+     
+}
+
+@media only screen and (max-width:1023px){
+    
+}
+@media only screen and (max-width:920px){
+   
+}
+
+@media only screen and (max-width:767px){
+    
+
+}
+
+@media only screen and (max-width:480px){
+    .skill__card{
+        height: 150px;
+        width: 140.391px;
+    }
+    .skills__card-image{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .skill__card-title{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
+@media only screen and (max-width:376px){
+    
+}
+  
