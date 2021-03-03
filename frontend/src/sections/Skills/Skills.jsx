@@ -1,27 +1,29 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './Skills.css';
 import {Container,Row,Col,Image,ListGroup} from 'react-bootstrap';
 import {Link, Redirect} from 'react-router-dom';
 import SkillCard from '../../components/SkillCard/SkillCard';
+import {useSelector,useDispatch} from 'react-redux';
+import { listSkills } from '../../actions/skillActions';
+
 const Skills = () => {
+    const dispatch = useDispatch();
+    const skillList = useSelector(state=>state.skillList);
+    const {skills} = skillList;
+
+    useEffect(() => {
+        dispatch(listSkills())
+    }, [dispatch])
     return (
     <Container className="px-0 py-5 my-5">  
         
         <Row>
             <h1 className="section__title w-100 text-center display-4 mb-5">My Skills</h1>
             
-            
-                <SkillCard md={6} title="html" image="/src/image/html.png"/>
-                <SkillCard md={6} title="css" image="/src/image/css.png"/>
-                <SkillCard md={6} title="javascript" image="/src/image/js.png"/>
-                <SkillCard md={6} title="reactjs" image="/src/image/react.png"/>
-                <SkillCard md={6} title="JQuery" image="/src/image/jquery.png"/>
-                <SkillCard md={6} title="bootstrap" image="/src/image/bootstrap.png"/>
-                <SkillCard md={6} title="github" image="/src/image/github.png"/>
-                <SkillCard md={6} title="nodejs" image="/src/image/node.png"/>
-                <SkillCard md={6} title="Postman" image="/src/image/postman.png"/>
-                <SkillCard md={6} title="MongoDB" image="/src/image/mongodb.png"/>
-                <SkillCard md={6} title="Firebase" image="/src/image/firebase.png"/>
+                {skills.map(skill=>{
+                    return <SkillCard key={skill._id} md={6} title={skill.name} image={skill.image}/>
+                })}
+               
             
         </Row>
     </Container>

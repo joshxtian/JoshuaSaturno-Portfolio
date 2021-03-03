@@ -1,0 +1,7 @@
+.login__content{
+    width: 100%;
+}
+.login{
+    display:grid;
+    height: 100vh;
+}

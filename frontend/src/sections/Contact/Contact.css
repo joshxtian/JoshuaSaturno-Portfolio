@@ -1,5 +1,18 @@
+.contact__header{
+    font-size: 35px;
+    color:white;
+}
 .contact__form{
     box-shadow:0px 10px 20px rgba(0,0,0,0.5);
+}
+
+.contact__content{
+    display:grid;
+    place-items: center;
+    height: 100%;
+}
+.contact__submit{
+    border-radius: 7px;
 }
 
 

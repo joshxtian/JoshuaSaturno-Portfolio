@@ -1,0 +1,19 @@
+.projectscreen{
+
+}
+.projectscreen__carousel-item{
+    height: 500px;
+}
+
+.projectscreen__attribute-title{
+    font-size: 23px;
+}
+.projectscreen__attribute{
+    font-weight: lighter;
+    word-wrap: break-word;
+}
+
+.projectscreen__lang-attribute:not(:first-child){
+    border-left: 1px solid #AAAAAA;
+    padding-left:5px ;
+}

@@ -7,6 +7,11 @@
 .section-fluid{
     display:grid;
 }
+.section-dark{
+    background:#252934;
+    height: 55vh;
+    display:grid;
+}
 
 @media only screen and (max-width:1200px){
     

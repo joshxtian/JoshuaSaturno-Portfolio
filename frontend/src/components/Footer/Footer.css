@@ -1,6 +1,22 @@
 footer{
-    height: 30vh;
     background:#161B22;
+}
+
+.footer__contact{
+    position: relative;
+    text-align: center;
+    height: 5vh;
+}
+
+.footer__contact-box{
+    position:absolute;
+    left: 33%;
+    bottom:0;
+    height: 250px;
+    width: 400.391px;
+    background:white;
+    border-radius: 5px;
+    box-shadow:0px 10px 20px rgba(0,0,0,0.5);
 }
 .footer__header{
     color:white;
